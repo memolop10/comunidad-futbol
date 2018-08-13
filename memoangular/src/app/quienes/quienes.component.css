@@ -1,0 +1,74 @@
+h1{
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;   
+}
+
+
+span{
+    bottom: 0;
+    margin-left: 0;
+    position: absolute;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.795);
+    text-shadow:5px 5px 5px rgb(143, 27, 42) 
+    
+    
+}
+
+
+.quienes {
+    
+    
+    border-radius: 5px; 
+    background-image: url("/assets/equipo.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin:auto;
+    margin-top: 2%; 
+   height: 56vh;
+    position: relative;
+    padding: 3px;
+    width: 65%;
+    -webkit-box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
+    
+  
+    padding: 15px;
+    /* overflow: scroll; */
+
+}
+
+p{
+    color:rgb(255, 255, 255);
+}
+
+#principal{
+    position: relative;
+    width: 100%;
+}
+
+#descripcion{
+    margin: 26%;
+    margin-top: 37px;
+    background-color: rgba(195, 11, 11, 0.534);
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 8px;
+    color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;   
+    font-size: 20px
+}
+
+h3{
+    color: #ffff;
+    text-align: center;
+    
+    
+}

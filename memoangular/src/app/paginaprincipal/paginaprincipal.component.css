@@ -1,0 +1,81 @@
+#centrado{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#menu{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: space-around;
+    vertical-align: 50px;
+    height: 100px;
+    color: #ffff;
+}
+
+#menu > div{
+    min-width: 150px;
+    height: 150px;
+   line-height:150px;
+   background-position: center center;
+   font-size: 1.5em;
+}
+
+.x{
+    background-image: url("/assets/balon2.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    line-height: 150px;
+    text-align: center;
+}
+
+a{
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;
+    
+    color: #ffff;
+    text-align: center;
+    
+    
+}
+
+
+
+
+#show{
+    
+    
+    border: 1px rgb(252, 0, 0) solid;
+    position: absolute;
+    left: 50%;
+    top: 71%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+p{
+    color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;
+
+}
+
+h2{
+    color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;   
+}
+
+h1{
+    color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+      
+    
+}

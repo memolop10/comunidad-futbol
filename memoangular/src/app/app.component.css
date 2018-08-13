@@ -1,0 +1,25 @@
+
+
+#cancha{
+    position: fixed;
+    background-image: url("/assets/canchaprincipal.jpeg");
+    background-size: 100%;
+    background-position: center; 
+    text-align: center;
+    height:100vh;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+#efecto{
+    position: fixed;
+    margin:0;
+    
+   
+    width: 100vh;
+    bottom: 0;
+    box-shadow: 0px 0px 500px 500px rgba(0,0,0,0.5);
+    z-index: -1;
+}
+

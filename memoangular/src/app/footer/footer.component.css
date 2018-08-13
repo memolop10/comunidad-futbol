@@ -1,0 +1,58 @@
+#iconos{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+   
+    
+}
+
+
+
+img{
+    height: 94%;
+    width: 9%;
+   
+  
+  
+}
+a{
+    text-align: center;
+}
+
+
+footer{
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    line-height: 40px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    margin-bottom:3px ;
+}
+
+
+
+footer #iconos .facebook:hover{
+    transform: scale(1.4, 1.4);
+  
+
+}
+
+footer #iconos img{
+    transition: all .5s ease;
+    
+}
+
+footer #iconos .twitter:hover{
+    transform: scale(1.4, 1.4);
+}
+
+footer #iconos .instagram:hover{
+    transform: scale(1.4, 1.4);
+}
+
+footer #iconos .youtube:hover{
+    transform: scale(1.4, 1.4);
+}
+

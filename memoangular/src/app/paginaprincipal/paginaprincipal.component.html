@@ -1,0 +1,43 @@
+
+
+  
+<link href="https://fonts.googleapis.com/css?family=Anton|MedievalSharp" rel="stylesheet"><div id="contenedor">
+ 
+      
+    <h1>COMUNIDAD FUTBOL</h1>
+      
+  
+
+  <div id="centrado">
+
+  <div id="menu">
+
+     <div class="x" (mouseover)="jugar=true" (mouseout)="jugar=false"> 
+       <a routerLink="/jugar">DONDE JUGAR</a> 
+      </div>
+
+    <div class="x" (mouseover)="eventos=true" (mouseout)="eventos=false"> 
+      <a routerLink="/eventos">EVENTOS</a> 
+    </div>
+
+    <div class="x" (mouseover)="quienes=true" (mouseout)="quienes=false"> 
+      <a routerLink="/quienes">NOSOTROS</a> 
+    </div>
+
+  </div>
+
+  <div id="show" *ngIf="jugar || eventos || quienes">
+      
+      <p *ngIf="jugar">ENCUENTRA CENTROS DEPORTIVOS, CERCA DE TU UBICACION Y SIGUE INCREMENTANDO TUS HABILIDADES</p>
+      <p *ngIf="eventos"> ENCUENTRA LOS PROXIMOS EVENTOS DEPORTIVOS Y NO TE LOS PIERDAS</p>
+      <p *ngIf="quienes"> CONOCE MAS SOBRE NUESTRO EQUIPO DE DESARROLLO</p>
+
+
+  </div>
+  
+ 
+
+</div>
+</div>
+
+

@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    color:#ffff;
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Anton', sans-serif;
+}
+
+
+button{
+    border:1px yellow solid; 
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+    margin-top: 10vh;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    font-weight: 300;
+    font-size: 25px;
+    
+    color: #ffffff;
+    background-color: #861720;
+    border-radius: 15px;
+    border: 3px double #ffffff;
+  }
+  button:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+
+.principalmapa{
+    /*border: 1px red solid;*/
+    
+    height: 419px;
+    margin-top: 20px
+
+}
+
+
+
+#mapa{
+    
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 54%;
+   
+    border-radius: 5px;
+    
+    margin: auto;
+    -webkit-box-shadow: 3px 3px 70px 6px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 3px 70px 6px rgba(0,0,0,1);
+    box-shadow: 3px 3px 70px 6px rgba(0,0,0,1);
+
+      
+    
+}
+
+
+#donde{
+
+    margin-top: 50px;
+}
+
