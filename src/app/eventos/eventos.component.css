@@ -1,10 +1,13 @@
-
+app-sidebar{
+    z-index: 100;
+}
 
 h1{
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'MedievalSharp', cursive;
     font-family: 'Anton', sans-serif;
+    padding: 41px;
 }
 
     
@@ -36,7 +39,7 @@ h1{
 figure{
     width: 265px;
     height: 306px;
-    margin: 0;
+    margin: auto;
     position: relative;
     transition: all ease .5s;
     transform-style: preserve-3d;
@@ -104,9 +107,39 @@ p{
 
     }
 }
-
+/* 
 @media screen and (max-width:1683px){
     .contenedor{
         width: 100%;
+    }
+} */
+
+@media screen and (max-width:1177px){
+    .contenedor{
+        display:grid;
+        grid-template-columns: repeat(2,3fr);
+        /* background-color: aquamarine;  */
+    }
+    /* app-sidebar{
+        position: fixed;
+        z-index: 100;
+    } */
+}
+
+
+@media screen and (max-width:838px){
+    .contenedor{
+        display:grid;
+        grid-template-columns: repeat(1,6fr);
+        /* background-color: black;  */
+        
+    }
+    #grid{
+        display: block;
+    }
+
+    app-sidebar{
+        position: fixed;
+        z-index: 100;
     }
 }
