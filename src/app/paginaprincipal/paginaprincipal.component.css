@@ -79,3 +79,20 @@ h1{
       
     
 }
+
+
+@media screen and (max-width:450px){
+    #menu{
+        display:grid;
+        grid-template-columns: repeat(1,3fr);
+        background-color: aquamarine;  
+    }
+    #centrado{
+       display: flex;
+       justify-content: center;
+    } 
+
+    #show{
+        display: none;
+    }
+}
