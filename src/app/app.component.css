@@ -23,3 +23,8 @@
     z-index: -1;
 }
 
+@media screen and (max-width:450px){
+    #cancha{
+        background-image: url(/assets/canchavertical.jpeg);
+    }
+}

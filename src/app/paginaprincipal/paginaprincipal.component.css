@@ -85,7 +85,9 @@ h1{
     #menu{
         display:grid;
         grid-template-columns: repeat(1,3fr);
-        background-color: aquamarine;  
+        /* background-color: aquamarine;   */
+        grid-gap: 30px;
+        height: auto;
     }
     #centrado{
        display: flex;
