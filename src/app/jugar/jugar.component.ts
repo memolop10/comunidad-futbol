@@ -16,7 +16,7 @@ export class JugarComponent implements OnInit {
 
   ngOnInit() {
 
-    this.mymap = L.map('mapa').setView([19.414462, -99.050053], 12);
+    this.mymap = L.map('mapa',{zoomControl:false}).setView([19.414462, -99.050053], 12);
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
       maxZoom: 18,
@@ -25,7 +25,9 @@ export class JugarComponent implements OnInit {
     }).addTo(this.mymap);
 
   
-
+      L.control.zoom({
+        position:'topright'
+      }).addTo(this.mymap);
 
 
     var fieldg = L.icon({

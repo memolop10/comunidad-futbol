@@ -66,3 +66,33 @@ button{
     margin-top: 50px;
 }
 
+@media screen and (max-width:838px){
+    #mapa{
+        position: absolute;
+        height: 90vh;
+        width: 100%;
+    }
+    #grid{
+        display: block;
+    }
+
+    app-sidebar{
+        position: fixed;
+        z-index: 1000;
+    }
+
+#donde{
+    position: absolute;
+    z-index: 1000;
+    bottom: 50px;
+    width: 100%;
+
+    }
+    h1{
+        position: absolute;
+        
+        z-index: 999;
+        top: 56px;
+        width: 100%;
+    }
+}
