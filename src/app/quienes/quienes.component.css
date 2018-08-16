@@ -72,3 +72,40 @@ h3{
     
     
 }
+
+@media screen and (max-width:838px){
+    #principal{
+        position: absolute;
+        height: 90vh;
+        width: 100%;
+    }
+    #grid{
+        display: block;
+    }
+
+    app-sidebar{
+        position: fixed;
+        z-index: 1000;
+    }
+
+    span{
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    h3{
+        font-size: 16px;
+    }
+
+    h1{
+        padding: 35px;
+    }
+
+    .quienes{
+        height: 29vh;
+        width: 38vh;
+    }
+
+}
