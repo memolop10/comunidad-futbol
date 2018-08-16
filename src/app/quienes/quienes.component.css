@@ -4,7 +4,8 @@ h1{
     text-align: center;
     color:#ffff;
     font-family: 'MedievalSharp', cursive;
-    font-family: 'Anton', sans-serif;   
+    font-family: 'Anton', sans-serif;  
+    text-shadow:5px 5px 5px rgba(0, 0, 0, 0.74) 
 }
 
 
@@ -29,14 +30,14 @@ span{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin:auto;
-    margin-top: 2%; 
-   height: 56vh;
+    margin-top: -25%; 
+   height: 47vh;
     position: relative;
     padding: 3px;
-    width: 65%;
-    -webkit-box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
+    width: 48%;
+    /* -webkit-box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
 -moz-box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
-box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75); */
     
   
     padding: 15px;
@@ -46,6 +47,8 @@ box-shadow: 3px 3px 82px 16px rgba(0,0,0,0.75);
 
 p{
     color:rgb(255, 255, 255);
+    text-shadow:5px 5px 5px rgba(0, 0, 0, 0.74) 
+
 }
 
 #principal{
@@ -69,7 +72,7 @@ p{
 h3{
     color: #ffff;
     text-align: center;
-    
+    text-shadow:5px 5px 5px rgba(0, 0, 0, 0.74)
     
 }
 
@@ -93,7 +96,7 @@ h3{
     }
 
     p {
-        font-size: 16px;
+        font-size: 12px;
     }
     h3{
         font-size: 16px;
@@ -106,6 +109,13 @@ h3{
     .quienes{
         height: 29vh;
         width: 38vh;
+        margin-top: 10px;
+    }
+
+    #descripcion{
+        margin: auto;
+        height: 200px;
+        width: 213px;
     }
 
 }
